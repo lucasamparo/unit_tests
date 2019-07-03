@@ -9,6 +9,11 @@ Simple samples using gtest for c++ codes. This repository includes samples for R
 - [Basic ROS Topics Test](ros_test/test/ros_topic_test.cpp)
 - [Embed Simple Test](ros_test/test/ros_buffer_test.cpp)
 - [Simple "out-of-scope" Test (Images)](image_test/image_test.cpp)
+
+## Prerequisites
+- [ROS](http://wiki.ros.org/ROS/Installation)
+- [GTest](https://github.com/google/googletest) (if you have some trouble, [see this link](https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/))
+- [CMake](https://cgold.readthedocs.io/en/latest/first-step/installation.html)
  
 ## Compiling
 Tests excluding ROS
