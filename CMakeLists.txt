@@ -64,7 +64,7 @@ if(CATKIN_ENABLE_TESTING)
       ros_test/test/ros_basic_test.cpp
       ros_test/src/ros_basic.cpp
   )
-  target_link_libraries(${EXEC_ROS_BASIC} ${catkin_LIBRARIES}) 
+  target_link_libraries(${EXEC_ROS_BASIC} ${catkin_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT}) 
 endif()
 
 # ROS Topic Test
@@ -74,7 +74,7 @@ if(CATKIN_ENABLE_TESTING)
       ros_test/test/ros_topic_test.cpp
       ros_test/src/ros_topic.cpp
   )
-  target_link_libraries(${EXEC_ROS_TOPIC} ${catkin_LIBRARIES}) 
+  target_link_libraries(${EXEC_ROS_TOPIC} ${catkin_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT}) 
 endif()
 
 # ROS Buffer Test
@@ -84,5 +84,5 @@ if(CATKIN_ENABLE_TESTING)
       ros_test/test/ros_buffer_test.cpp
       ros_test/src/ros_buffer.cpp
   )
-  target_link_libraries(${EXEC_ROS_BUFFER} ${catkin_LIBRARIES}) 
+  target_link_libraries(${EXEC_ROS_BUFFER} ${catkin_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT}) 
 endif()
