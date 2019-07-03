@@ -36,7 +36,7 @@ add_executable(
     ${EXEC_BASIC}
     basic_factorial/factorial.cpp
 )
-target_link_libraries(${EXEC_BASIC} ${GTEST_LIBRARY} ${GTEST_MAIN_LIBRARY})
+target_link_libraries(${EXEC_BASIC} ${GTEST_LIBRARY} ${GTEST_MAIN_LIBRARY} ${CMAKE_THREAD_LIBS_INIT})
 add_test(NAME ${EXEC_BASIC} COMMAND ${EXEC_BASIC})
 
 # Factorial with Fixture test
@@ -45,7 +45,7 @@ add_executable(
     basic_fixture/factorial_test.cpp
     basic_fixture/factorial.cpp
 )
-target_link_libraries(${EXEC_FIXTURE} ${GTEST_LIBRARY} ${GTEST_MAIN_LIBRARY})
+target_link_libraries(${EXEC_FIXTURE} ${GTEST_LIBRARY} ${GTEST_MAIN_LIBRARY} ${CMAKE_THREAD_LIBS_INIT})
 add_test(NAME ${EXEC_FIXTURE} COMMAND ${EXEC_FIXTURE})
 
 # Image Test
@@ -54,7 +54,7 @@ add_executable(
     image_test/image.cpp
     image_test/image_test.cpp
 )
-target_link_libraries(${EXEC_IMAGE} ${GTEST_LIBRARY} ${GTEST_MAIN_LIBRARY} ${OpenCV_LIBS})
+target_link_libraries(${EXEC_IMAGE} ${GTEST_LIBRARY} ${GTEST_MAIN_LIBRARY} ${OpenCV_LIBS} ${CMAKE_THREAD_LIBS_INIT})
 add_test(NAME ${EXEC_IMAGE} COMMAND ${EXEC_IMAGE})
 
 # ROS Basic Test
