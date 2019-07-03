@@ -39,7 +39,7 @@ ctest -v
 Feel free to open an [Issue](https://github.com/lucasamparo/unit_tests/issues).
 
 ## Media
-- <a href="https://docs.google.com/presentation/d/1lMtk-4C3U3mjAnuYhOP25-pU1MlAOL5bnnADVrPnem8/edit?usp=sharing" target="_blank">Presentation</a>
+- [Presentation](https://docs.google.com/presentation/d/1lMtk-4C3U3mjAnuYhOP25-pU1MlAOL5bnnADVrPnem8/edit?usp=sharing)
  
 ## Changelog
 - 26/06/2019: First version of repository
