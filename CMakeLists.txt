@@ -86,12 +86,3 @@ if(CATKIN_ENABLE_TESTING)
   )
   target_link_libraries(${EXEC_ROS_BUFFER} ${catkin_LIBRARIES}) 
 endif()
-
-file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/build_tests)
-install(
-  DIRECTORY ${BUILD_PATH}
-  DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/build_tests
-  FILES_MATCHING PATTERN "unit_test*"
-  PATTERN "*~" EXCLUDE
-)
-
