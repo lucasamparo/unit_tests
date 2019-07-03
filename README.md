@@ -14,6 +14,7 @@ Simple samples using gtest for c++ codes. This repository includes samples for R
 - [ROS](http://wiki.ros.org/ROS/Installation)
 - [GTest](https://github.com/google/googletest) (if you have some trouble, [see this link](https://www.eriksmistad.no/getting-started-with-google-test-on-ubuntu/))
 - [CMake](https://cgold.readthedocs.io/en/latest/first-step/installation.html)
+- [OpenCV](https://docs.opencv.org/3.3.0/d7/d9f/tutorial_linux_install.html)
  
 ## Compiling
 Tests excluding ROS
