@@ -30,6 +30,10 @@ Using the "devel" folder from ROS structure
 cd devel/lib/unit_tests
 ./your_test
 ```
+To run all available tests
+```
+ctest -v
+```
 
 ## Contribuitions
 Feel free to open an [Issue](https://github.com/lucasamparo/unit_tests/issues).
@@ -39,4 +43,4 @@ Feel free to open an [Issue](https://github.com/lucasamparo/unit_tests/issues).
  
 ## Changelog
 - 26/06/2019: First version of repository
-- 03/07/2019: README creation and Install Rule
+- 03/07/2019: README creation
